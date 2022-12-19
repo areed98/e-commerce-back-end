@@ -13,8 +13,8 @@ Tag.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    //tagName
-    tagName: {
+    //tag ID
+    tagId: {
       type: DataTypes.STRING,
     },
   },

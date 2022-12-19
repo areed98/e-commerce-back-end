@@ -17,8 +17,8 @@ Product.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    //product name
-    ProductName: {
+    //product ID
+    ProductId: {
         type: DataTypes.STRING,
         allowNull: false,
     },
@@ -39,7 +39,7 @@ Product.init(
         isNumeric: true,
       },
     },
-    //categoryID
+    //categoryID using Category.js
     categoryId: {
       type: DataTypes.INTEGER,
       references: {
